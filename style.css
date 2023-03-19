@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(./şş.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+.container{
+    height: calc(100vh - 37px);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+
+#text{
+    border:solid 5px purple ;
+    width: 80%;
+    height: 5%;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 5px;
+    background-color:darkgoldenrod;
+}
+
+#text:focus{
+    outline: none;
+    border-color: green;
+}
+
+#btn{
+    border: 2px solid rgba(100,55,46,0.8 );
+    padding: 20px;
+    font-size: medium;
+    color:peru;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h3{
+    position: absolute;
+    color:blue;
+    font-size: 80px;
+
+}
+
+
+
+
