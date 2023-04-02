@@ -31,7 +31,7 @@ button.addEventListener("click",(e)=>{
 })
 
 
-//JAVASCRİPT İLE RESİM GÖNDERDİM
+
 
 
 
